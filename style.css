@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucinda Sans', 'Lucinda Sans Regular',
+    'Lucinda Grande', 'Lucinda Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    border-radius: 5px;
+    
+}
+.container .coin-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 5px;
+    margin: 7px;
+}
+.container .coin-price .logo{
+    width: 40px;
+    margin-right: 15px;
+}
+.container .coin-price .logo img{
+    width: 100%;
+}
+.container .coin-price div{
+    display: block;
+}
+.container .coin-price div h1{
+    font-size: 20px;
+}
